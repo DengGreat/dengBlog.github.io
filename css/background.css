@@ -1,17 +1,10 @@
-/* #web_bg { */
-    /* 背景图像的地址（url括号里）  */
-    /* background: url(/img/background1.jpg); */
-    /* 背景图像不重复 */
-    /* background-repeat: no-repeat; */
-    /* 背景图像大小 */
-    /* background-size: cover; */
-/* } */
+
 #web_bg {
-    background-image: url(/img/background1.jpg),
+    background-image: url(https://122-mybucket.oss-cn-beijing.aliyuncs.com/other/background1.jpg),
         linear-gradient(60deg,
             rgba(255, 165, 150, 0.5) 5%,
             rgba(0, 228, 255, 0.35)),
-        url(/img/background.png);
+        url(https://122-mybucket.oss-cn-beijing.aliyuncs.com/other/background1.jpg);
 }
 /* 文章页背景及透明度 */
 /* 文章页背景 */
@@ -47,7 +40,7 @@ img {
 
 /* 页脚footer */
 /* 渐变色滚动动画 */
-@-webkit-keyframes Gradient {
+/* @-webkit-keyframes Gradient {
     0% {
         background-position: 0 50%;
     }
@@ -73,7 +66,7 @@ img {
     100% {
         background-position: 0 50%;
     }
-}
+} 
 
 @keyframes Gradient {
     0% {
@@ -87,9 +80,9 @@ img {
     100% {
         background-position: 0 50%;
     }
-}
+} */
 
-#footer {
+/* #footer {
     background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     -webkit-animation: Gradient 10s ease infinite;
@@ -106,4 +99,4 @@ img {
 
 #footer:before {
     background-color: rgba(0, 0, 0, 0);
-}
+} */
