@@ -1,10 +1,10 @@
 
 #web_bg {
-    background-image: url(https://122-mybucket.oss-cn-beijing.aliyuncs.com/other/background1.jpg),
+    background-image: url(https://img1.imgtp.com/2023/05/30/9H61SspZ.jpg),
         linear-gradient(60deg,
             rgba(255, 165, 150, 0.5) 5%,
             rgba(0, 228, 255, 0.35)),
-        url(https://122-mybucket.oss-cn-beijing.aliyuncs.com/other/background1.jpg);
+        url(https://img1.imgtp.com/2023/05/30/9H61SspZ.jpg);
 }
 /* 文章页背景及透明度 */
 /* 文章页背景 */
